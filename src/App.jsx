@@ -1,9 +1,5 @@
-function App() {
-  const [count, setCount] = useState(0)
+import Menu from './components/Menu.jsx'
 
-  return (
-    <h1>Teste</h1>
-  )
-}
+  <Menu />
 
 export default App

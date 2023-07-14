@@ -1,0 +1,67 @@
+.bloco{
+    display: flex;
+}
+.imgProfile{
+    width: 50vw;
+    height: 88vh;
+    background-image: url('C:\Users\Corvo\Desktop\portifolio2\meu-portifolio\public\Profile.jpeg');
+}
+.description{
+    width: 50vw;
+    height: 88vh;
+    background-color: #17D647;
+}
+.description h1{
+    color: #025939;
+    font-size: 1.2em;
+    text-align: left;
+    padding-left: 40px;
+    padding-top: 40px;
+    font-weight: 600;
+}
+.description h2{
+    color: #ffff;
+    font-size: 2.3em;
+    text-align: left;
+    padding-left: 40px;
+}
+.description p{
+    color: #ffff;
+    font-size: 1.4em;
+    text-indent: 40px;
+    text-align: justify;
+    padding-left: 40px;
+    font-weight: 600;
+    width: 600px;
+}
+.description span{
+    color: #025939;
+    font-weight: 800;
+}
+/*Celular 425px*/
+@media (max-width: 425px){
+    .imgProfile{
+        width: 50vw;
+        height: 50vh;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    .description{
+        width: 50vw;
+        height: 36.4vh;
+    }
+    .description h1{
+        font-size: .3em;
+        padding: 0;
+    }
+    .description h2{
+        font-size: 1em;
+        padding: 0;
+    }
+    .description p{
+        font-size: .1em;
+        padding: 0;
+        margin: 0;
+        text-indent: 0;
+    }
+}

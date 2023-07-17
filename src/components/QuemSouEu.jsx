@@ -3,7 +3,7 @@ import styles from'../styles/QuemSouEu.module.css'
 function QuemSouEu(){
     return(
         <div className={styles.bloco}>
-            <div className={styles.imgProfile}></div>
+            <img src="../public/Profile.jpeg" alt="Imagem de Perfil" className={styles.imgProfile}/>
             <div className={styles.description}>
                 <h1>QUEM SOU</h1>
                 <h2>Olá, sou Ítalo Marcelo</h2>
